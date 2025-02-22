@@ -20,8 +20,8 @@ $(document).ready(function () {
       "Burnout",
       "Depressão",
       "Estresse",
-      "Filhos / Paternidade e Maternidade",
-      "Transtorno de Déficit de Atenção e Hiperatividade (TDAH)"
+      "Paternidade e Maternidade",
+      "TDAH"
     ],
     typeSpeed: 100,
     backSpeed: 60,
