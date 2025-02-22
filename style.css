@@ -759,7 +759,7 @@ footer p span {
   }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 900px) {
 
   .navbar .logo a {
     font-size: 25px;
@@ -776,6 +776,10 @@ footer p span {
 
   .max-width {
     padding: 0 23px;
+  }
+
+  .home {
+    background-attachment: scroll;
   }
 
   .home .home-content .text-2 {
