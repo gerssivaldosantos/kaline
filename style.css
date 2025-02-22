@@ -676,6 +676,12 @@ footer p span {
 }
 
 @media (max-width: 947px) {
+
+  .about .about-content .right .text {
+    font-size: 23px;
+    margin-bottom: 12px;
+  }
+
   .max-width {
     padding: 0 50px;
   }
