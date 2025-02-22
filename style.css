@@ -178,6 +178,8 @@ html {
   font-size: 50px;
   font-weight: 600;
   margin-left: -3px;
+  display: flex;
+  gap: 10px;
 }
 
 .home .home-content .text-3 {
@@ -760,11 +762,13 @@ footer p span {
   }
 
   .home .home-content .text-2 {
-    font-size: 60px;
+    font-size: 50px;
+    gap: 0px;
+    flex-direction: column;
   }
 
   .home .home-content .text-3 {
-    font-size: 23px;
+    font-size: 18px;
   }
 
   .home .home-content a {
