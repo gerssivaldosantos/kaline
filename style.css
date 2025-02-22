@@ -760,7 +760,7 @@ footer p span {
   }
 
   .home .home-content .text-2 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .home .home-content .text-3 {
@@ -805,24 +805,6 @@ footer p span {
 
 }
 
-@media (max-width: 500px) {
-  .home .home-content .text-2 {
-    font-size: 50px;
-  }
-
-  .home .home-content .text-3 {
-    font-size: 20px;
-  }
-
-  .home .home-content a {
-    font-size: 18px;
-  }
-
-  .about .about-content .right a {
-    font-size: 18px;
-    padding: 5px 15px;
-  }
-}
 
 @media (max-width: 425px) {
   .services .services-button {
