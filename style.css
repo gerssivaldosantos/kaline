@@ -559,7 +559,6 @@ section .title::after {
 }
 
 .formation .title::after {
-  content: "Formação";
   background: #191919;
 }
 
