@@ -2,6 +2,16 @@
 <html lang="pt-BR">
 
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M2RBVSBP');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kaline Psicóloga</title>
@@ -13,81 +23,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
-  <!-- Google Analytics 4 (GA4) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0VFRRNXR9E"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-0VFRRNXR9E');
-
-    // Função para rastrear cliques em links e botões
-    function trackButtonClick(buttonName, destination) {
-      gtag('event', 'button_click', {
-        'button_name': buttonName,
-        'destination': destination
-      });
-    }
-
-    // Configuração de rastreamento após o carregamento do DOM
-    document.addEventListener('DOMContentLoaded', function () {
-      // Rastrear cliques no botão "Agende uma sessão"
-      document.querySelector('a[href="https://zenklub.com.br/psicologos/kaline-santana/"]').addEventListener('click', function () {
-        trackButtonClick('Agende_uma_sessao', 'zenklub');
-      });
-
-      // Rastrear cliques no botão "Converse comigo"
-      document.querySelector('a[href="https://wa.link/5uqafe"].secondary-button').addEventListener('click', function () {
-        trackButtonClick('Converse_comigo_home', 'whatsapp');
-      });
-
-      // Rastrear cliques no botão "Entre em contato"
-      document.querySelector('.about .right a[href="https://wa.link/5uqafe"]').addEventListener('click', function () {
-        trackButtonClick('Entre_em_contato_about', 'whatsapp');
-      });
-
-      // Rastrear cliques nos itens do menu de navegação
-      document.querySelectorAll('.menu li a').forEach(function (menuItem) {
-        menuItem.addEventListener('click', function () {
-          gtag('event', 'menu_click', {
-            'menu_item': this.textContent
-          });
-        });
-      });
-
-      // Rastrear visualizações de seção
-      const sections = ['home', 'about', 'services', 'personal-description', 'formation'];
-
-      // Configuração para detecção de visualização de seção
-      const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.5
-      };
-
-      const sectionObserver = new IntersectionObserver(function (entries) {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            gtag('event', 'section_view', {
-              'section_name': entry.target.id
-            });
-          }
-        });
-      }, observerOptions);
-
-      // Observar cada seção
-      sections.forEach(sectionId => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-          sectionObserver.observe(section);
-        }
-      });
-    });
-  </script>
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2RBVSBP" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div class="scroll-up-btn">
     <i class="fas fa-angle-up"></i>
   </div>
@@ -202,7 +144,7 @@
         </ul>
         <div>
           <h3>Como funciona a terapia?</h3>
-          <br/>
+          <br />
           <p>Minha abordagem foca no presente, concentrando-se em resolver os problemas atuais enfrentados pelo paciente
             com grande praticidade e utilizando técnicas concretas que ajudam o paciente a lidar com suas dificuldades
             de
@@ -239,7 +181,7 @@
     <p>
       <a href="#">
         <span>Kaline Psicóloga CRP 06/173721</span>
-      </a> © 2024 Todos os direitos reservados.
+      </a> © 2025 Todos os direitos reservados.
     </p>
   </footer>
   <script src="script.js"></script>
