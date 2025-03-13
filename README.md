@@ -1,36 +1,33 @@
-<h1 align="center"> My Personal Portfolio </h1>
-<h5 align="center" font-weigth="bold">  This is my portfolio, in it you will find a little about me, a summary of my main projects and contact channels</h5>
-<p align="justify"> 
+<h1 align="center"> Kaline Psicóloga - Portfolio </h1>
+<h5 align="center" font-weigth="bold">Site profissional para psicóloga, apresentando serviços, formação e informações de contato</h5>
+<p align="justify">
 
-Made with popular technologies on the market and fully responsive, I based myself on the HTML, CSS, JS youtube tutorial "Coding Nepal" </p>
+Desenvolvido com tecnologias populares do mercado e totalmente responsivo, baseado em um template HTML, CSS e JS com adaptações personalizadas para atender às necessidades específicas da profissional.</p>
 <img src="https://img.shields.io/static/v1?label=HTML&message=CSS&color=blue&style=for-the-badge&logo=HTML"/>
-<p align="center" >
 
-  <h3>Animations<h1/>
-  <img  src="lettersanimation.gif" alt="Logo">
-  
-  <h3>Clean Sections<h2/>
-  <img    src="allsectionsanimation.gif" alt="Logo">
-  
-</p>
+### Principais tecnologias utilizadas
 
-### Main technologies used
-  <p> 
-    
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/) - JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+  <p>
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The HyperText Markup Language, or HTML is the standard markup language for documents designed to 
-be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/) - JavaScript é uma linguagem de programação de alto nível que permite a criação de conteúdo dinâmico em páginas web. No projeto, é utilizado para animações, navegação responsiva e interatividade.
 
-- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Cascading Style Sheets is a style sheet language used for describing the presentation of a
-document written in a markup language 
-such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - HTML (HyperText Markup Language) é a linguagem padrão para estruturar o conteúdo da página, organizando as seções de apresentação, serviços, formação e contato da psicóloga.
 
-- [JQuery](https://jquery.com/) - jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, 
-as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019,
-jQuery is used by 73% of the 10 million most popular websites.
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - CSS (Cascading Style Sheets) é utilizado para estilizar a página, criando um design profissional com cores suaves e layout adequado para um site de psicologia.
+
+- [JQuery](https://jquery.com/) - jQuery é uma biblioteca JavaScript que simplifica a manipulação do DOM, eventos e animações. No site, é utilizada para melhorar a experiência do usuário com transições suaves e comportamentos interativos.
 
 </p>
 
-### Requirements to run the application on your machine
-  To run, just have a Web Browser compatible with technologies. 
+### Funcionalidades
+
+- Apresentação profissional da psicóloga
+- Descrição de serviços e abordagem terapêutica
+- Exibição da formação acadêmica e cursos
+- Links para agendamento de consultas
+- Design responsivo para todos os dispositivos
+- Integração com Google Tag Manager para análise de tráfego
+
+### Requisitos para executar a aplicação
+
+  Para visualizar o site, basta ter um navegador web compatível com as tecnologias utilizadas.
